@@ -1,0 +1,5 @@
+scapy
+python-nmap
+shodan
+Jinja2
+requests
