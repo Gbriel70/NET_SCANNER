@@ -1,5 +1,6 @@
 from network_scanner import scan_network, monitor_dns_traffic
 from port_scanner import scan_ports_concurrent
+import config
 
 def main():
     devices = scan_network()
@@ -14,7 +15,7 @@ def main():
         scan_ports_concurrent(devices)
 
         #VERIFICA O STATUS DO DNS
-        pihole_ip = "192.168.18.12"
+        pihole_ip = "PIHOLE_IP"
         monitor_dns_traffic(devices, pihole_ip)
 
         for device in devices:

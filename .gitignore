@@ -4,3 +4,4 @@ __pycache__/
 .etc-dnsdmasq/
 etc-pihole/
 .gitignore
+config.py
