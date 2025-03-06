@@ -2,4 +2,4 @@ venv/
 __pycache__/
 .vscode/
 .etc-dnsdmasq/
-.etc-pihole/
+etc-pihole/
